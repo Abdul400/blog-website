@@ -43,7 +43,7 @@
 .image {
   height: 100%;
   width: 50%;
-  background-image: url('../public/images/myImage.JPG');
+  background-image: url('../images/myImage.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
