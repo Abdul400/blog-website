@@ -42,7 +42,7 @@ export async function getStaticPaths() {
         params: { pageId: post._id.toString() },
       };
     }),
-    fallback: blocking,
+    fallback: 'blocking',
   };
 }
 
