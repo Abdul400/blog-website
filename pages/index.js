@@ -39,5 +39,6 @@ export async function getStaticProps() {
         body: post.body,
       })),
     },
+    revalidate: 5,
   };
 }
