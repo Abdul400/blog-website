@@ -21,7 +21,7 @@ export async function getStaticProps() {
   //   },
   // };
   const uri =
-    'mongodb+srv://abdul400:sSEQBwMLwxoE5h1L@cluster0.kur9zqh.mongodb.net/?retryWrites=true&w=majority';
+    'your_uri_here';
   const client = await MongoClient.connect(uri);
 
   const database = client.db('blogs');
