@@ -7,10 +7,10 @@ async function handler(req, res) {
     const data = req.body;
 
     // const client = await MongoClient.connect(
-    //   'mongodb+srv://abdul400:sSEQBwMLwxoE5h1L@cluster0.kur9zqh.mongodb.net/blogs?retryWrites=true&w=majority'
+    //   ''
     // );
     const client = new MongoClient(
-      'mongodb+srv://abdul400:sSEQBwMLwxoE5h1L@cluster0.kur9zqh.mongodb.net/blogs?retryWrites=true&w=majority'
+      'your_uri_here'
     );
     const db = client.db();
 
