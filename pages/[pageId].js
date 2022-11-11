@@ -27,7 +27,7 @@ export default pageId;
 
 export async function getStaticPaths() {
   const uri =
-    'mongodb+srv://abdul400:sSEQBwMLwxoE5h1L@cluster0.kur9zqh.mongodb.net/?retryWrites=true&w=majority';
+    'your_uri_here!';
   const client = await MongoClient.connect(uri);
 
   const database = client.db('blogs');
@@ -50,7 +50,7 @@ export async function getStaticProps({ params }) {
   // const res = await fetch(`https://dummyjson.com/posts/${params.pageId}`);
   // const post = await res.json();
   const uri =
-    'mongodb+srv://abdul400:sSEQBwMLwxoE5h1L@cluster0.kur9zqh.mongodb.net/?retryWrites=true&w=majority';
+    'your_uri_here';
   const client = await MongoClient.connect(uri);
 
   const database = client.db('blogs');
